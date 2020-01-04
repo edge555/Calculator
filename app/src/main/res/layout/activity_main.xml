@@ -7,12 +7,23 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <com.edge.calculator.CalculatorOutputView
+    <com.edge.calculator.InputView
+        android:id="@+id/input_layout"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        app:item_icon="@drawable/ic_trash"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/output_layout">
+
+    </com.edge.calculator.InputView>
+
+    <com.edge.calculator.OutputView
+        android:id="@+id/output_layout"
         android:layout_width="match_parent"
         android:layout_height="200dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
-    </com.edge.calculator.CalculatorOutputView>
+    </com.edge.calculator.OutputView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

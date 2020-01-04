@@ -3,7 +3,8 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
-
+    <color name="colorTileBg">#D3D3D3</color>
     <color name="colorText">#000000</color>
     <color name="colorTextLight">#A0A0A0</color>
+    <color name="colorImage">@color/colorAccent</color>
 </resources>
