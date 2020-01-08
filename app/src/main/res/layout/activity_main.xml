@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <com.edge.calculator.OutputView
+    <com.edge.calculator.output.OutputView
         android:id="@+id/output_layout"
         android:layout_width="match_parent"
         android:layout_height="200dp"
@@ -155,11 +155,11 @@
         app:layout_constraintStart_toEndOf="@id/key_2"
         app:layout_constraintTop_toBottomOf="@id/key_6" />
 
-    <View
+    <com.edge.calculator.InputView
         android:id="@+id/key_space"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:background="@color/colorTileBg"
+        app:item_text="."
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@id/key_equal"
         app:layout_constraintStart_toEndOf="@id/key_0"
