@@ -20,6 +20,7 @@ class MainActivity : AppCompatActivity() {
         key_7.setOnClickListener{output_layout.addItem("7")}
         key_8.setOnClickListener{output_layout.addItem("8")}
         key_9.setOnClickListener{output_layout.addItem("9")}
+        key_00.setOnClickListener{output_layout.addItem("00")}
 
         key_clear.setOnClickListener{output_layout.clear()}
         key_remove.setOnClickListener{output_layout.removeItem()}
@@ -30,6 +31,5 @@ class MainActivity : AppCompatActivity() {
         key_multiply.setOnClickListener{output_layout.addItem("*")}
         key_divide.setOnClickListener{output_layout.addItem("/")}
         key_percent.setOnClickListener{output_layout.addItem("%")}
-
     }
 }

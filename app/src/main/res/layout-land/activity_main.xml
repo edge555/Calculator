@@ -10,7 +10,6 @@
         android:layout_width="0dp"
         android:layout_weight="1"
         android:layout_height="match_parent">
-
     </com.edge.calculator.output.OutputView>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -116,7 +115,7 @@
             android:layout_height="0dp"
             app:item_text="0"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@id/key_space"
+            app:layout_constraintEnd_toStartOf="@id/key_00"
             app:layout_constraintStart_toEndOf="@id/key_percent"
             app:layout_constraintTop_toBottomOf="@id/key_2" />
 
@@ -155,16 +154,16 @@
             android:layout_width="0dp"
             android:layout_height="0dp"
             app:item_text="3"
-            app:layout_constraintBottom_toTopOf="@id/key_space"
+            app:layout_constraintBottom_toTopOf="@id/key_00"
             app:layout_constraintEnd_toStartOf="@id/key_equal"
             app:layout_constraintStart_toEndOf="@id/key_2"
             app:layout_constraintTop_toBottomOf="@id/key_6" />
 
         <com.edge.calculator.InputView
-            android:id="@+id/key_space"
+            android:id="@+id/key_00"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            app:item_text=""
+            app:item_text="00"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@id/key_equal"
             app:layout_constraintStart_toEndOf="@id/key_0"
@@ -209,7 +208,6 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@id/key_3"
             app:layout_constraintTop_toBottomOf="@id/key_add" />
-
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </LinearLayout>
