@@ -1,6 +1,5 @@
 package com.edge.calculator.output
 
-
 import bsh.Interpreter
 import java.lang.Exception
 
@@ -12,6 +11,8 @@ object OutputPresenter {
 
     fun attach(view : OutputInterfaceView){
         mnViews = view
+        updateEquation()
+        updateOutcome()
     }
 
     fun detach(){
@@ -38,7 +39,7 @@ object OutputPresenter {
     }
 
     fun solve(){
-        if(mnCurretOutcome.isEmpty()){
+        if(mnCurretOutcome.isNotEmpty()){
             mnCurretEquation = mnCurretOutcome
             mnCurretOutcome = ""
         }

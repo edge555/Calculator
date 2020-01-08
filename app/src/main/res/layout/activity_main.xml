@@ -159,7 +159,7 @@
         android:id="@+id/key_space"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        app:item_text="."
+        app:item_text=""
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@id/key_equal"
         app:layout_constraintStart_toEndOf="@id/key_0"
@@ -204,7 +204,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/key_3"
         app:layout_constraintTop_toBottomOf="@id/key_add" />
-
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

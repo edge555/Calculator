@@ -17,7 +17,7 @@
         android:padding="16dp"
         android:textColor="@color/colorText"
         android:textSize="@dimen/textCalcEqu"
-        android:text="5*8">
+        android:text="">
     </TextView>
     <TextView
         android:id="@+id/calc_input_out"
@@ -28,6 +28,6 @@
         android:padding="16dp"
         android:textColor="@color/colorTextLight"
         android:textSize="@dimen/textCalcOut"
-        android:text="40">
+        android:text="">
     </TextView>
 </merge>
